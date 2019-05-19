@@ -1,4 +1,4 @@
-package com.cricket.wc2019;
+package com.cricket.wc2019.Controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +9,6 @@ public class welcomeController {
     @RequestMapping("/welcome")
     public String welcome()
     {
-        return "Aaiye Bhosdikey";
+        return "Aaao Bhosdikey";
     }
 }

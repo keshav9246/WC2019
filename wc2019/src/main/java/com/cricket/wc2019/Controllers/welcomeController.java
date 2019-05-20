@@ -9,6 +9,6 @@ public class welcomeController {
     @RequestMapping("/welcome")
     public String welcome()
     {
-        return "Aaao Bhosdikey";
+        return "Aaaomvn clean Bhosdikey";
     }
 }
